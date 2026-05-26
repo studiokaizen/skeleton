@@ -1,0 +1,28 @@
+{
+    "name": "studiokaizen/skeleton",
+    "description": "ZenPHP application skeleton",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinayak Anivase",
+            "email": "vinayak@kaizendesignstudio.com",
+            "homepage": "https://kaizendesignstudio.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "studiokaizen/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

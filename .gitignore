@@ -1,0 +1,9 @@
+/vendor/
+/config.php
+/database/database.sqlite
+/storage/app/*
+/storage/cache/*
+/storage/logs/*
+!/storage/app/.gitkeep
+!/storage/cache/.gitkeep
+!/storage/logs/.gitkeep
