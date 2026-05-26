@@ -1,7 +1,7 @@
 <?php $this->extend('layout'); ?>
-<?php $this->start('title'); ?>Home<?php $this->end(); ?>
-<?php $this->start('content'); ?>
+<?php $this->section('title', 'Home'); ?>
+<?php $this->startSection('content'); ?>
 
 <h1>Hello, World!</h1>
 
-<?php $this->end(); ?>
+<?php $this->endSection(); ?>

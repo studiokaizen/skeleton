@@ -103,12 +103,12 @@ Templates live in `resources/views/` and use plain PHP. Extend `layout.php` usin
 
 ```php
 <?php $this->extend('layout'); ?>
-<?php $this->start('title'); ?>Page Title<?php $this->end(); ?>
-<?php $this->start('content'); ?>
+<?php $this->section('title', 'Page Title'); ?>
+<?php $this->startSection('content'); ?>
 
 <h1>Hello!</h1>
 
-<?php $this->end(); ?>
+<?php $this->endSection(); ?>
 ```
 
 ---
