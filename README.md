@@ -102,7 +102,7 @@ $app->get('/users/:id', function (Request $request, Response $response) use ($ap
 Templates live in `resources/views/` and use plain PHP. Extend `layout.php` using sections:
 
 ```php
-<?php $this->layout('layout'); ?>
+<?php $this->extend('layout'); ?>
 <?php $this->start('title'); ?>Page Title<?php $this->end(); ?>
 <?php $this->start('content'); ?>
 
